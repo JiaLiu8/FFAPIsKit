@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - FFAPIsKit (1.0.0):
+  - FFAPIsKit (1.0.1):
     - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
@@ -36,7 +36,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  FFAPIsKit: f54466484573c905a4e542a1e6c050a0ce6fa434
+  FFAPIsKit: 57e034fffe5a7cbff4285dabc6dbacf86e1fd365
 
 PODFILE CHECKSUM: c327154441ed987c1a1be3adb7fef1b821f2a740
 
