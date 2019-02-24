@@ -1,15 +1,42 @@
 PODS:
-  - FFAPIsKit (0.1.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FFAPIsKit (0.1.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - FFAPIsKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   FFAPIsKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFAPIsKit: 7492784d0355cb70538d2ad2f9302daf7c9f63cc
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  FFAPIsKit: ace9ceafc8eca01aa645e4ebb9d729e746f71d5d
 
 PODFILE CHECKSUM: c327154441ed987c1a1be3adb7fef1b821f2a740
 
